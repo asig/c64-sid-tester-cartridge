@@ -80,7 +80,7 @@ done
 kb_sys251	.byte "sys251",13,0
 
 run_prg:
-	; copy program from cartrdige to BASIC program space
+	; copy program from cartridge to BASIC program space
 	lda #<prg
 	sta word1
 	lda #>prg
